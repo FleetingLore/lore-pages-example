@@ -1,0 +1,54 @@
+## 环境搭建
+
+假设你已经有合适的 IDE, 并且会基本的 gh 和 bash 方法.
+
+项目的核心是 lore-pages, 将 lore 文件转化为 html 文件, 比如本页面.
+安装此工具的命令需要用到 rust 的工具链.
+
+#### 1. 安装 rust 环境
+
+rust 安装说明书 | https://rust-lang.org/tools/install/
+---
+
+#### 2. 安装 lore-pages 工具
+
+在任意终端执行:
+cargo Install lore-pages
+
+关于更多的信息, 可以参考:
+lore-pages - crates.io | https://crates.io/crates/lore-pages
+---
+
+#### 3. 项目初始化
+
+项目默认发布于 gh-pages, 你也可以构建自己的工作流.
+
+在 Lore.toml 和 publish.sh 指定 gh-pages 的位置, 替换掉默认值.
+---
+
+#### 4. 拓展
+
+在 Lore.toml 指定 javascript 拓展, 默认的拓展为默认 css 和数学公式支持.
+---
+
+## 简短的语法介绍
+
+#### 外部引用
+
+name \| url
+
+例如
+github | https://github.com
+---
+
+#### 内部引用
+
+name \== link
+这将在本存储库下寻找 link 指定的文件.
+
+例如
+example == examples/example
+---
+## 示例项目
+
+还在写 uwu
