@@ -21,7 +21,7 @@ inner_lore_key = "=="
 inner_lore_key_escape = "\\=="
 
 [renderer]
-site_title = "xxx"
+site_title = "lore-pages-example"
 from_lore_path = "./src"
 to_html_path = "./docs-target"
 lang = "en-US"
