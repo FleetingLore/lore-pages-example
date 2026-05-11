@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>xxx</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://fleetinglore.github.io/lore-pages-src/default/main.js"></script>
+<script src="https://fleetinglore.github.io/lore-pages-src/mathjax/main.js"></script>
+</head>
+<body>
+  <h2>环境搭建</h2>
+
+  <p>假设你已经有合适的 IDE, 并且会基本的 gh 和 bash 方法.</p>
+
+  <p>项目的核心是 lore-pages, 将 lore 文件转化为 html 文件, 比如本页面.</p>
+  <p>安装此工具的命令需要用到 rust 的工具链.</p>
+
+  <h4>1. 安装 rust 环境</h4>
+
+  <p style="margin-left: 20px"><a href="https://rust-lang.org/tools/install/" class="link_url" target="_blank">rust 安装说明书</a></p>
+  <br>
+
+  <h4>2. 安装 lore-pages 工具</h4>
+
+  <p>在任意终端执行:</p>
+  <p>cargo Install lore-pages</p>
+
+  <p>关于更多的信息, 可以参考:</p>
+  <p style="margin-left: 20px"><a href="https://crates.io/crates/lore-pages" class="link_url" target="_blank">lore-pages - crates.io</a></p>
+  <br>
+
+  <h4>3. 项目初始化</h4>
+
+  <p>项目默认发布于 gh-pages, 你也可以构建自己的工作流.</p>
+
+  <p>在 Lore.toml 和 publish.sh 指定 gh-pages 的位置, 替换掉默认值.</p>
+  <br>
+
+  <h4>4. 拓展</h4>
+
+  <p>在 Lore.toml 指定 javascript 拓展, 默认的拓展为默认 css 和数学公式支持.</p>
+  <br>
+
+  <h2>简短的语法介绍</h2>
+
+  <h4>外部引用</h4>
+
+  <p>name | url</p>
+
+  <p>例如</p>
+  <p style="margin-left: 20px"><a href="https://github.com" class="link_url" target="_blank">github</a></p>
+  <br>
+
+  <h4>内部引用</h4>
+
+  <p>name == link</p>
+  <p>这将在本存储库下寻找 link 指定的文件.</p>
+
+  <p>例如</p>
+  <p style="margin-left: 20px"><a href="https://fleetinglore.github.io/lore-pages-example/examples/example" class="link_lore" target="_blank">example</a></p>
+  <br>
+  <h2>示例项目</h2>
+
+  <p>还在写 uwu</p>
+</body>
+</html>
