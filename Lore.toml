@@ -1,0 +1,32 @@
+[parser]
+url_link_key = "|"
+url_link_key_escape = "\\|"
+lore_link_key = "=="
+lore_link_key_escape = "\\=="
+comment_key = "%"
+comment_key_escape = "\\%"
+breakline_key = "---"
+breakline_key_escape = "\\---"
+image_key = "|"
+image_key_escape = "\\|"
+placeholder_key = "_"
+placeholder_key_escape = "\\_"
+inner_open_key = "-"
+inner_open_key_escape = "\\-"
+inner_close_key = "+"
+inner_close_key_escape = "\\+"
+inner_url_key = "|"
+inner_url_key_escape = "\\|"
+inner_lore_key = "=="
+inner_lore_key_escape = "\\=="
+
+[renderer]
+site_title = "xxx"
+from_lore_path = "./src"
+to_html_path = "./docs-target"
+lang = "en-US"
+link_base = "https://xxx.github.io/xxx"
+scripts = [
+    "https://fleetinglore.github.io/lore-pages-src/default/main.js",
+    "https://fleetinglore.github.io/lore-pages-src/mathjax/main.js",
+]
