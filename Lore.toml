@@ -25,7 +25,7 @@ site_title = "xxx"
 from_lore_path = "./src"
 to_html_path = "./docs-target"
 lang = "en-US"
-link_base = "https://xxx.github.io/xxx"
+link_base = "https://fleetinglore.github.io/lore-pages-example"
 scripts = [
     "https://fleetinglore.github.io/lore-pages-src/default/main.js",
     "https://fleetinglore.github.io/lore-pages-src/mathjax/main.js",
