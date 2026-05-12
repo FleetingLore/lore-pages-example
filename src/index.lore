@@ -23,7 +23,7 @@ lore-pages - crates.io | https://crates.io/crates/lore-pages
 
 项目默认发布于 gh-pages, 你也可以构建自己的工作流.
 
-在 Lore.toml 和 publish.sh 指定 gh-pages 的位置, 替换掉默认值.
+在 Lore.toml 指定 gh-pages 的位置, 替换掉默认值.
 ---
 
 #### 4. 拓展
